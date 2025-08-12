@@ -125,7 +125,7 @@ export default function HotRimzDetailing() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-red-600/20 to-transparent rounded-2xl blur-3xl" />
               <Image
-                src="/red-sports-car.png"
+                src="/images/hero-car-detail.png"
                 alt="Premium luxury car being detailed with professional equipment"
                 width={800}
                 height={600}
@@ -572,7 +572,7 @@ export default function HotRimzDetailing() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-l from-red-600/20 to-transparent rounded-2xl blur-3xl" />
               <Image
-                src="/detailing-products.jpg"
+                src="/images/professional-equipment.jpg"
                 alt="Professional car detailing equipment and products"
                 width={600}
                 height={600}
