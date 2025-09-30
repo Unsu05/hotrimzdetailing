@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Hot Rimz Detailing – Every Detail Matters",
+  description:
+    "Premium mobile car detailing in Guelph. Every detail matters – interior, exterior, and full packages for a showroom shine.",
+}
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
