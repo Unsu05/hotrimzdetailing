@@ -171,7 +171,7 @@ export default function HotRimzDetailing() {
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start mb-4">
                       <div>
-                        <h5 className="text-xl font-semibold text-white mb-2">Interior Detail - Gold</h5>
+                        <h5 className="text-xl font-semibold text-white mb-2">Interior Detail - Essentials</h5>
                         <Badge className="bg-yellow-600/20 text-yellow-400 border-yellow-600/30 mb-3">
                           Essential Clean
                         </Badge>
@@ -207,12 +207,12 @@ export default function HotRimzDetailing() {
                         <p className="font-bold text-red-500">$79.99</p>
                       </div>
                       <div className="bg-gray-800 rounded p-2">
-                        <p className="text-xs text-gray-400">SUV</p>
-                        <p className="font-bold text-red-500">$89.99</p>
+                        <p className="text-xs text-gray-400">Mid Size SUV</p>
+                        <p className="font-bold text-red-500">$99.99</p>
                       </div>
                       <div className="bg-gray-800 rounded p-2">
-                        <p className="text-xs text-gray-400">Truck/Van</p>
-                        <p className="font-bold text-red-500">$99.99</p>
+                        <p className="text-xs text-gray-400">Large SUV/Truck/Van</p>
+                        <p className="font-bold text-red-500">$119.99</p>
                       </div>
                     </div>
 
@@ -222,18 +222,17 @@ export default function HotRimzDetailing() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Book Interior Gold
+                        Book Interior Essentials
                       </Link>
                     </Button>
                   </CardContent>
                 </Card>
-
-                {/* Interior Platinum */}
+                                {/* Interior Premium */}
                 <Card className="bg-black border-gray-800 hover:border-red-600/50 transition-all duration-300 ring-2 ring-red-600/30">
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start mb-4">
                       <div>
-                        <h5 className="text-xl font-semibold text-white mb-2">Interior Detail - Platinum</h5>
+                        <h5 className="text-xl font-semibold text-white mb-2">Interior Detail - Premium</h5>
                         <Badge className="bg-purple-600/20 text-purple-400 border-purple-600/30 mb-3">
                           Premium Deep Clean
                         </Badge>
@@ -241,7 +240,65 @@ export default function HotRimzDetailing() {
                       <Badge className="bg-red-600 text-white">Popular</Badge>
                     </div>
 
-                    <p className="text-gray-300 mb-3 text-sm">Everything in Gold plus:</p>
+                    <p className="text-gray-300 mb-3 text-sm">Everything in Essentials plus:</p>
+
+                    <ul className="space-y-2 mb-6 text-gray-300">
+                      <li className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-red-500" />
+                        <span>Shampoo of Mats and Seats</span>
+                      </li>
+                      <li className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-red-500" />
+                        <span>Vent Cleaning</span>
+                      </li>
+                      <li className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-red-500" />
+                        <span>Deep Plastic Restoration</span>
+                      </li>
+                    </ul>
+
+                    <div className="grid grid-cols-3 gap-2 mb-4 text-center">
+                      <div className="bg-gray-800 rounded p-2">
+                        <p className="text-xs text-gray-400">Sedan</p>
+                        <p className="font-bold text-red-500">$119.99</p>
+                      </div>
+                      <div className="bg-gray-800 rounded p-2">
+                        <p className="text-xs text-gray-400">SUV</p>
+                        <p className="font-bold text-red-500">$129.99</p>
+                      </div>
+                      <div className="bg-gray-800 rounded p-2">
+                        <p className="text-xs text-gray-400">Truck/Van</p>
+                        <p className="font-bold text-red-500">$149.99</p>
+                      </div>
+                    </div>
+
+                    <Button className="w-full bg-red-600 hover:bg-red-700 text-white" asChild>
+                      <Link
+                        href="https://app.squareup.com/appointments/book/c8h2b65cb3p60y/LSC66SQ9XSWZV/start"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Book Interior Premium
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              </div>
+
+                {/* Interior Platinum */}
+                <Card className="bg-black border-gray-800 hover:border-red-600/50 transition-all duration-300 ring-2 ring-red-600/30">
+                  <CardContent className="p-6">
+                    <div className="flex justify-between items-start mb-4">
+                      <div>
+                        <h5 className="text-xl font-semibold text-white mb-2">Interior Detail - Elite</h5>
+                        <Badge className="bg-purple-600/20 text-purple-400 border-purple-600/30 mb-3">
+                          Premium Deep Clean
+                        </Badge>
+                      </div>
+                      <Badge className="bg-red-600 text-white">Popular</Badge>
+                    </div>
+
+                    <p className="text-gray-300 mb-3 text-sm">Everything in Premium plus:</p>
 
                     <ul className="space-y-2 mb-6 text-gray-300">
                       <li className="flex items-center space-x-2">
@@ -265,15 +322,15 @@ export default function HotRimzDetailing() {
                     <div className="grid grid-cols-3 gap-2 mb-4 text-center">
                       <div className="bg-gray-800 rounded p-2">
                         <p className="text-xs text-gray-400">Sedan</p>
-                        <p className="font-bold text-red-500">$99.99</p>
+                        <p className="font-bold text-red-500">$139.99</p>
                       </div>
                       <div className="bg-gray-800 rounded p-2">
                         <p className="text-xs text-gray-400">SUV</p>
-                        <p className="font-bold text-red-500">$109.99</p>
+                        <p className="font-bold text-red-500">$159.99</p>
                       </div>
                       <div className="bg-gray-800 rounded p-2">
                         <p className="text-xs text-gray-400">Truck/Van</p>
-                        <p className="font-bold text-red-500">$119.99</p>
+                        <p className="font-bold text-red-500">$179.99</p>
                       </div>
                     </div>
 
@@ -283,7 +340,7 @@ export default function HotRimzDetailing() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Book Interior Platinum
+                        Book Interior Elite
                       </Link>
                     </Button>
                   </CardContent>
@@ -603,15 +660,15 @@ export default function HotRimzDetailing() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Michael Chen",
-                vehicle: "BMW M3",
+                name: "Imad Syed",
+                vehicle: "Mercedes-Benz GLE 450",
                 rating: 5,
                 review:
-                  "Absolutely incredible work! My M3 looks better than the day I bought it. The ceramic coating is amazing - water just beads right off.",
+                  "Absolutely incredible work! My GLE looks better than the day I bought it.",
               },
               {
                 name: "Sarah Johnson",
-                vehicle: "Mercedes C-Class",
+                vehicle: "Acura MDX",
                 rating: 5,
                 review:
                   "Professional, punctual, and perfectionist. The convenience of mobile service is unmatched. Will definitely be using Hot Rimz regularly.",
@@ -621,7 +678,7 @@ export default function HotRimzDetailing() {
                 vehicle: "Audi RS5",
                 rating: 5,
                 review:
-                  "The paint correction work was phenomenal. Removed years of swirl marks and scratches. My car looks showroom fresh again!",
+                  "The interior restore was magnificient! My car looks showroom fresh again!",
               },
             ].map((testimonial, index) => (
               <Card key={index} className="bg-black border-gray-800">
@@ -662,7 +719,7 @@ export default function HotRimzDetailing() {
                   </div>
                   <div>
                     <p className="font-semibold text-white">Call or Text</p>
-                    <p className="text-gray-300">(519) 555-RIMZ</p>
+                    <p className="text-gray-300">(519) 760-5748</p>
                   </div>
                 </div>
 
@@ -672,7 +729,7 @@ export default function HotRimzDetailing() {
                   </div>
                   <div>
                     <p className="font-semibold text-white">Email</p>
-                    <p className="text-gray-300">info@hotrimzdetailing.com</p>
+                    <p className="text-gray-300">hotrimzdetailing@gmail.com</p>
                   </div>
                 </div>
 
@@ -752,8 +809,8 @@ export default function HotRimzDetailing() {
             <div>
               <h4 className="font-semibold text-white mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>(519) 555-RIMZ</li>
-                <li>info@hotrimzdetailing.com</li>
+                <li>(519) 760-5748</li>
+                <li>hotrimzdetailing@gmail.com</li>
                 <li>Guelph, ON</li>
                 <li>Mon-Sat: 8AM-6PM</li>
               </ul>
