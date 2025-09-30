@@ -22,6 +22,14 @@ import { QuoteForm } from "@/components/quote-form"
 export default function HotRimzDetailing() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <Head>
+        <title>Hot Rimz Detailing – Every Detail Matters</title>
+        <meta
+          name="description"
+          content="Premium mobile car detailing in Guelph. Every detail matters – interior, exterior, and full packages for a showroom shine."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       {/* Header */}
       <header className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-red-600/20">
         <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center justify-between">
