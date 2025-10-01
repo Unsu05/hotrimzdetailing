@@ -1,8 +1,3 @@
-export const metadata = {
-  title: "Hot Rimz Detailing – Every Detail Matters",
-  description:
-    "Premium mobile car detailing in Guelph. Every detail matters – interior, exterior, and full packages for a showroom shine.",
-}
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -23,6 +18,13 @@ import {
 import Image from "next/image"
 import Link from "next/link"
 import { QuoteForm } from "@/components/quote-form"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Hot Rimz Detailing – Every Detail Matters",
+  description:
+    "Premium mobile car detailing in Guelph. Every detail matters – interior, exterior, and full packages for a showroom shine.",
+};
 
 export default function HotRimzDetailing() {
   return (
@@ -581,7 +583,6 @@ export default function HotRimzDetailing() {
               </p>
             </div>
           </div>
-        </div>
       </section>
 
       {/* Why Choose Us Section */}
