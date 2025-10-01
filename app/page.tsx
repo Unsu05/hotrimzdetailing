@@ -1,8 +1,3 @@
-export const metadata = {
-  title: "Hot Rimz Detailing – Every Detail Matters",
-  description:
-    "Premium mobile car detailing in Guelph. Every detail matters – interior, exterior, and full packages for a showroom shine.",
-}
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -23,6 +18,13 @@ import {
 import Image from "next/image"
 import Link from "next/link"
 import { QuoteForm } from "@/components/quote-form"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Hot Rimz Detailing – Every Detail Matters",
+  description:
+    "Premium mobile car detailing in Guelph. Every detail matters – interior, exterior, and full packages for a showroom shine.",
+};
 
 export default function HotRimzDetailing() {
   return (
@@ -166,7 +168,7 @@ export default function HotRimzDetailing() {
                   Interior Detailing
                 </h4>
 
-                {/* Interior Gold */}
+                {/* Interior Essentials */}
                 <Card className="bg-black border-gray-800 hover:border-red-600/50 transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start mb-4">
@@ -227,7 +229,7 @@ export default function HotRimzDetailing() {
                     </Button>
                   </CardContent>
                 </Card>
-                                {/* Interior Premium */}
+                {/* Interior Premium */}
                 <Card className="bg-black border-gray-800 hover:border-red-600/50 transition-all duration-300 ring-2 ring-red-600/30">
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start mb-4">
@@ -285,37 +287,39 @@ export default function HotRimzDetailing() {
                 </Card>
               </div>
 
-                {/* Interior Platinum */}
+                {/* Interior Elite */}
                 <Card className="bg-black border-gray-800 hover:border-red-600/50 transition-all duration-300 ring-2 ring-red-600/30">
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start mb-4">
                       <div>
                         <h5 className="text-xl font-semibold text-white mb-2">Interior Detail - Elite</h5>
                         <Badge className="bg-purple-600/20 text-purple-400 border-purple-600/30 mb-3">
-                          Premium Deep Clean
+                          Ultimate Protection
                         </Badge>
                       </div>
                       <Badge className="bg-red-600 text-white">Popular</Badge>
                     </div>
 
-                    <p className="text-gray-300 mb-3 text-sm">Everything in Premium plus:</p>
-
                     <ul className="space-y-2 mb-6 text-gray-300">
                       <li className="flex items-center space-x-2">
                         <CheckCircle className="h-4 w-4 text-red-500" />
-                        <span>Full carpet and seat extraction</span>
+                        <span>Everything in Premium</span>
                       </li>
                       <li className="flex items-center space-x-2">
                         <CheckCircle className="h-4 w-4 text-red-500" />
-                        <span>Leather reconditioning</span>
+                        <span>Full carpet &amp; seat extraction</span>
                       </li>
                       <li className="flex items-center space-x-2">
                         <CheckCircle className="h-4 w-4 text-red-500" />
-                        <span>Deep sanitization</span>
+                        <span>Leather treatment/conditioning</span>
                       </li>
                       <li className="flex items-center space-x-2">
                         <CheckCircle className="h-4 w-4 text-red-500" />
-                        <span>UV protection</span>
+                        <span>Salt &amp; tough stain removal</span>
+                      </li>
+                      <li className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-red-500" />
+                        <span>Sanitization &amp; UV protection</span>
                       </li>
                     </ul>
 
@@ -401,11 +405,11 @@ export default function HotRimzDetailing() {
                   </CardContent>
                 </Card>
 
-                {/* Full Detail Gold */}
+                {/* Full Detail Essentials */}
                 <Card className="bg-black border-gray-800 hover:border-red-600/50 transition-all duration-300">
                   <CardContent className="p-6">
-                    <h5 className="text-xl font-semibold text-white mb-2">Full Detail - Gold</h5>
-                    <p className="text-gray-300 mb-4 text-sm">Exterior Wash + Interior Gold</p>
+                    <h5 className="text-xl font-semibold text-white mb-2">Full Detail - Essentials</h5>
+                    <p className="text-gray-300 mb-4 text-sm">Exterior Wash + Interior Essentials</p>
 
                     <div className="grid grid-cols-3 gap-2 mb-4 text-center">
                       <div className="bg-gray-800 rounded p-2">
@@ -428,20 +432,20 @@ export default function HotRimzDetailing() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Book Full Detail Gold
+                        Book Full Detail Essentials
                       </Link>
                     </Button>
                   </CardContent>
                 </Card>
 
-                {/* Full Detail Platinum */}
+                {/* Full Detail Premium */}
                 <Card className="bg-black border-gray-800 hover:border-red-600/50 transition-all duration-300 ring-2 ring-red-600/30">
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start mb-2">
-                      <h5 className="text-xl font-semibold text-white">Full Detail - Platinum</h5>
+                      <h5 className="text-xl font-semibold text-white">Full Detail - Premium</h5>
                       <Badge className="bg-red-600 text-white">Best Value</Badge>
                     </div>
-                    <p className="text-gray-300 mb-4 text-sm">Exterior Wash + Interior Platinum</p>
+                    <p className="text-gray-300 mb-4 text-sm">Exterior Wash + Interior Premium</p>
 
                     <div className="grid grid-cols-3 gap-2 mb-4 text-center">
                       <div className="bg-gray-800 rounded p-2">
@@ -464,7 +468,7 @@ export default function HotRimzDetailing() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Book Full Detail Platinum
+                        Book Full Detail Premium
                       </Link>
                     </Button>
                   </CardContent>
@@ -579,7 +583,6 @@ export default function HotRimzDetailing() {
               </p>
             </div>
           </div>
-        </div>
       </section>
 
       {/* Why Choose Us Section */}

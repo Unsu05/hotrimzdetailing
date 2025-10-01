@@ -89,11 +89,12 @@ export function QuoteForm() {
           />
           <select name="service" required className="w-full p-3 bg-black border border-gray-700 rounded-md text-white">
             <option value="">Select Service</option>
-            <option value="interior-gold">Interior Detail - Gold</option>
-            <option value="interior-platinum">Interior Detail - Platinum</option>
+            <option value="interior-essentials">Interior Detail - Essentials</option>
+            <option value="interior-premium">Interior Detail - Premium</option>
+            <option value="interior-elite">Interior Detail - Elite</option>
             <option value="exterior-wash">Exterior Wash</option>
-            <option value="full-gold">Full Detail - Gold</option>
-            <option value="full-platinum">Full Detail - Platinum</option>
+            <option value="full-essentials">Full Detail - Essentials</option>
+            <option value="full-premium">Full Detail - Premium</option>
             <option value="custom">Custom Package</option>
           </select>
           <Button type="submit" disabled={isSubmitting} className="w-full bg-red-600 hover:bg-red-700 text-white py-3">
